@@ -1,5 +1,6 @@
 builderImages:
-  pack: gcr.io/paketo-buildpacks/dotnet-core
+  pack: paketobuildpacks/builder:base
+
 
 buildpacks:
   - gcr.io/paketo-buildpacks/dotnet-core
