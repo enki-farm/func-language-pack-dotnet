@@ -1,0 +1,5 @@
+builderImages:
+  pack: mcr.microsoft.com/dotnet/core/sdk:7.0
+
+buildpacks:
+  - gcr.io/paketo-buildpacks/dotnet-core

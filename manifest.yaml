@@ -1,0 +1,12 @@
+name: dotnet-language-pack
+healthEndpoints:
+  liveness: /health/liveness
+  readiness: /health/readiness
+runtimes:
+  - path: dotnet
+    name: dotnet
+    templates:
+      - path: cloudevent
+        name: cloudevent
+      - path: http
+        name: http
