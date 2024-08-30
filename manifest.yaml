@@ -1,4 +1,4 @@
-name: dotnet-language-pack
+name: dotnet
 healthEndpoints:
   liveness: /health/liveness
   readiness: /health/readiness
@@ -6,5 +6,5 @@ runtimes:
   - path: dotnet
     name: dotnet
     templates:
-      - path: dotnet/http
+      - path: http
         name: http
