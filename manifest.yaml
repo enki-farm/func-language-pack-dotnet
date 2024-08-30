@@ -6,7 +6,5 @@ runtimes:
   - path: dotnet
     name: dotnet
     templates:
-      - path: cloudevent
-        name: cloudevent
-      - path: http
+      - path: dotnet/http
         name: http
